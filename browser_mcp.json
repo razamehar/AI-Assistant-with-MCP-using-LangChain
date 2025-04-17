@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb",
+        "--ignore-robots-txt"
+      ]
+    },
+    "filesystem": {
+                "command": "npx",
+                "args": [
+                    "-y",
+                    "@modelcontextprotocol/server-filesystem",
+                    "D:/Data Science/My Projects/AI Assistant with MCP using LangChain/"
+                ]
+            }
+  }
+}
