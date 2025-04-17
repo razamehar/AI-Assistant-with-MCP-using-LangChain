@@ -2,6 +2,9 @@
 
 An interactive AI assistant powered by **LangChain**, **OpenAI**, and **Model Context Protocol (MCP)**. This assistant supports persistent memory, file system access, and web-based tasks using MCP agents.
 
+This assistant uses **MCP servers** to interact with both:
+- **Airbnb** (to search listings)
+- **Local filesystem** (to read/write files)
 ---
 
 ## Features
